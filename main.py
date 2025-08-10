@@ -10,9 +10,10 @@ import webbrowser
 # === CONFIGURATION ===
 SERVICE_ACCOUNT_FILE = "service_account.json" 
 ""
-SHEET_ID = "1ohYqyJtXGUdf6vXqAqlKyMHc7QTtM41ptrTzWWn58D4"
-SHEET_RANGE = "Sheet2!A2:L"
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+SHEET_ID = ""
+SHEET_RANGE = ""
+SCOPES = ["
+"]
 
 def get_first_pending_row(service):
     sheet = service.spreadsheets()
