@@ -1,9 +1,11 @@
 ***Project Overview
+
 This Python script orchestrates a powerful automation pipeline designed to process real-time events, recognize vehicle number plates from attached images, update a central database (Google Sheet), and immediately dispatch alerts via WhatsApp.
 
 It is ideal for implementing a low-cost, automated tracking or notification system for maintenance workflows, security checks, or logistics monitoring.
 
 *** Architecture and Workflow
+
 The system operates on a loop, linking three distinct services via a centralized control script:
 
 Google Sheets (Input & Output):
